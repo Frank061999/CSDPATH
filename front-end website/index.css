@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+header {
+    text-align: center;
+    background-color: #005f83;
+    padding: 30px 0;
+    border-radius: 10px;
+}
+
+h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    color: #005f83;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#programs1 {
+    text-align: center;
+    background-color: #d0d6d4;
+    width: 530px;
+	height: 150px;
+    display: inline-table;
+    border-radius: 15px;
+    margin-right: 5%;
+    margin-left: 20%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#programs2 {
+    text-align: center;
+    background-color: #d0d6d4;
+    text-align: center;
+    width: 530px;
+	height: 150px;
+    display: inline-table;
+    border-radius: 15px;
+}
+
+main {
+    padding: 30px 0;
+}
+
+fieldset {
+    border-radius: 10px;
+    background-color: #ebebeb;
+    border-color: black;
+    color: #005f83;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+legend {
+    color: #005f83;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#submit {
+    color: white;
+    background: #fdb51b;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+/* Adjust  Aisha can be changed  */
+#recomended_results {
+    background-color: #d0d6d4;
+   
+    border-radius: 10px;
+    color: black;
+    font-size: 16px;
+}
+
+#option1 {
+    background-color: #d0d6d4;
+   
+    border-radius: 10px;
+    color: black;
+    font-size: 14px;
+}
+
+#option2 {
+    background-color: #d0d6d4;
+  
+    border-radius: 10px;
+    color: black;
+    font-size: 14px;
+}
+
+p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#c {
+    background-color: #d0d6d4;
+    padding: 30px 0;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #d0d6d4;
+    padding: 30px 0;
+    border-radius: 10px;
+}
+
+#sendQuestions {
+    color: white;
+    background: #fdb51b;
+    text-align: center;
+    border-radius: 5px;
+}

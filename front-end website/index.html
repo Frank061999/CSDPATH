@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Class Scheduler</title>
+    <link href="index.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>CSD and Computer Science Pathways</h1>
+    </header>
+
+    <main>
+        <div id="programs1">
+            <h3>Computing and Software Development, BAS</h3>
+            <h3>Computing and Software Development, AAS-T</h3>
+            <h3>Certificates</h3>
+        </div>
+        <div id="programs2">
+            <h3>Computer Science, DTA/MRP</h3>
+            <h3>Computer Science, BS</h3>
+            <br>
+        </div>
+
+        <fieldset>
+            <legend>What are your priorities?</legend>
+            <label for="priority1">Priority 1</label>
+            <select name="priority1" id="priority1">
+                <option>Choose one</option>
+                <option value="length">Length of the course taken</option>
+                <option value="csdCareers">One of the CSD careers</option>
+                <option value="transfer">Transfer to University</option>
+                <option value="expandHaveCredits">Expand upon education(already have credits)</option>
+                <option value="expandHaveExperience">Expand upon education(already have work experience in CSD)</option>
+            </select>
+            <br><br>
+            <label for="priority2">Priority 2</label>
+            <select required name="priority2" id="priority2">
+                <option value="" disabled selected>Choose one</option>
+                <option value="length">Length of the course taken</option>
+                <option value="csdCareers">One of the CSD careers</option>
+                <option value="transfer">Transfer to University</option>
+                <option value="expandHaveCredits">Expand upon education(already have credits)</option>
+                <option value="expandHaveExperience">Expand upon education(already have work experience in CSD)</option>
+                <option value="none">No other priorities for class searching</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <!-- Background -->
+            <legend>What is your background?</legend>
+            <h4>Do you have 90 credits?</h4>
+            <input type="radio" id="yes1" name="credits" value="yes">
+            <label for="yes1">Yes</label>
+            <input type="radio" id="no1" name="credits" value="no">
+            <label for="no1">No</label>
+            <hr>
+            <h4>Do you have prior work experience in tech?</h4>
+            <input type="radio" id="yes2" name="workExperience" value="yes">
+            <label for="yes2">Yes</label>
+            <input type="radio" id="no2" name="workExperience" value="no">
+            <label for="no2">No</label>
+            <hr>
+            <h4>Desired time to finish?</h4>
+            <input type="radio" id="1 year or less" name="length" value="1 year or less">
+            <label for="1 year or less">1 year or less</label>
+            <input type="radio" id="2 years" name="length" value="2 years">
+            <label for="2 years">2 years</label>
+            <input type="radio" id="over 2 years" name="length" value="over 2 years">
+            <label for="over 2 years">Over 2 years</label>
+            <hr>
+            <h4>Career goal</h4>
+            <input type="radio" id="csCareer" name="careers" value="Computer Science Career">
+            <label for="csCareer">Computer Science Career</label>
+            <input type="radio" id="sd" name="careers" value="Software Developer">
+            <label for="sd">Software Developer</label>
+            <input type="radio" id="wd" name="careers" value="Web Developer">
+            <label for="wd">Web Developer</label>
+            <hr>
+            <h4>Do you want to transfer to University after finishing the program?</h4>
+            <input type="radio" id="yes" name="transfer" value="yes">
+            <label for="yes3">Yes</label>
+            <input type="radio" id="no" name="transfer" value="no">
+            <label for="no3">No</label>
+        </fieldset>
+        <button id="submit" onclick="results()">Submit</button>
+        <div id="c">
+            <h3>Our recommended program(s) based on your answers above</h3>
+            <!-- added Aisha; we can delete or modify later-->
+            <h4>Recommend degree: </h4>
+            <p id="recomended_results"></p>
+            <br><a href="https://catalog.lwtech.edu/content.php?catoid=15&navoid=825"><span id="link"></span></a></p>
+            <h4> Others Options: </h4>
+            <p id="option1"></p>
+            <p id="option2"></p>
+            <br><a href="tables\tables.html">CSD and Computer Science Programs</a>
+
+            <!--<p>Other options: <span id="otherOption1">...</span> <span id="otherOption2"></span></p>-->
+        </div>
+
+    </main>
+
+    <footer>
+        <h3>For further questions please contact our admission coach.</h3>
+        <textarea name="questions" id="questions" cols="30" rows="10"></textarea>
+        <button id="sendQuestions">Send</button>
+    </footer>
+    <script>
+
+        let credits90;
+        let workExper;
+        let finishTime;
+        let csdGoal;
+        let universityTransfer;
+        const certificates = "Certificates";
+        const csBAS = "Computing and Software Development, BAS";
+        const csAAST = "Computing and Software Development, AAS-T";
+        const csDTA = "Computer Science DTA/MRP";
+        const csBS = "Computer Science, BS";
+
+        function results() {
+            credits90 = document.querySelector('input[name="credits"]:checked').value;
+            workExper = document.querySelector('input[name="workExperience"]:checked').value;
+            finishTime = document.querySelector('input[name="length"]:checked').value;
+            csdGoal = document.querySelector('input[name="careers"]:checked').value;
+            universityTransfer = document.querySelector('input[name="transfer"]:checked').value;
+
+            let recommendText = "";
+
+            switch (document.getElementById("priority1").value) {
+                case "length":
+                    recommendText = getLengthCourseRecommendation(finishTime, credits90);
+                    break;
+                case "csdCareers":
+                    recommendText = getCSDCareersRecommendation(csdGoal);
+                    break;
+                case "transfer":
+                    recommendText = getTransferToUniRecommendation(universityTransfer);
+                    break;
+                case "expandHaveCredits":
+                    recommendText = getEducationRecommendation(credits90);
+                    break;
+                case "expandHaveExperience":
+                    recommendText = getHaveExperienceRecommendation(workExper);
+                    break;
+            }
+            console.log("Recommendation text:", recommendText);
+            document.getElementById("recomended_results").innerHTML = recommendText;
+            console.log("End ");
+            document.getElementById("link").innerHTML = "The Link to all School programs";
+
+            switch (document.getElementById("priority2").value) {
+                case "length":
+                    ltcPriority2(finishTime, credits90);
+                    break;
+                case "csdCareers":
+                    csdPriority2(csdGoal);
+                    break;
+                case "transfer":
+                    uniPriority2(universityTransfer);
+                    break;
+                case "expandHaveCredits":
+                    cresditsPriority2(credits90);
+                    break;
+                case "expandHaveExperience":
+                    workExpePriority2(previousWork);
+                    break;
+            }
+        }
+
+        function getLengthCourseRecommendation(timeGoal, ninetyCredit) {
+            if (timeGoal === "1 year or less")
+                return certificates;
+            else if (timeGoal === "2 years")
+                return (ninetyCredit === "yes") ? csBAS : csAAST;
+            else if (timeGoal === "over 2 years")
+                return csDTA + ", " + csBS;
+        }
+
+        function getCSDCareersRecommendation(careerPlan) {
+            if (careerPlan === "Computer Science Career")
+                return csDTA + ", " + csBS;
+            else if (careerPlan === "Software Developer")
+                return csBAS + ", " + csAAST;
+            else if (careerPlan === "Web Developer")
+                return certificates;
+        }
+
+        function getTransferToUniRecommendation(university) {
+            return (university === "yes") ? csDTA + ", " + csAAST : csBAS + ", " + csBS;
+        }
+
+        function getEducationRecommendation(ninetyCredit) {
+            return (ninetyCredit === "yes") ? csBAS : csDTA + ", " + csAAST;
+        }
+
+        function getHaveExperienceRecommendation(previousWork) {
+            return (previousWork === "yes") ? certificates : csDTA + ", " + csAAST;
+        }
+
+        function ltcPriority2(timeGoal, ninetyCredit) {
+            if (timeGoal == "1 year or less") {
+                if (!document.getElementById("recomended_results").innerHTML.includes(certificates))
+                    document.getElementById("option1").innerHTML = certificates;
+            } else if (timeGoal == "2 years") {
+                if (!document.getElementById("recomended_results").innerHTML.includes(certificates))
+                    document.getElementById("option1").innerHTML = certificates;
+
+                if (!document.getElementById("recomended_results").innerHTML.includes(csAAST))
+                    document.getElementById("option2").innerHTML = ", " + csAAST;
+            } else {
+                if (!document.getElementById("recomended_results").innerHTML.includes(csBAS))
+                    document.getElementById("option1").innerHTML = csBAS;
+
+                if (!document.getElementById("recomended_results").innerHTML.includes(csDTA))
+                    document.getElementById("otherOption2").innerHTML = ", " + csDTA;
+            }
+        }
+
+        function csdPriority2(careerPlan) {
+            if (careerPlan == "Computer Science Career") {
+                if (document.getElementById("recomended_results").innerHTML.includes(csBS))
+                    document.getElementById("option1").innerHTML = csBS;
+
+                if (!document.getElementById("recomended_results").innerHTML.includes(csDTA))
+                    document.getElementById("option2").innerHTML = ", " + csDTA;
+
+            } else if (careerPlan == "Software Developer") {
+                if (!document.getElementById("recomended_results").innerHTML.includes(csBAS))
+                    document.getElementById("option1").innerHTML = csBAS;
+
+                if (!document.getElementById("recomended_results").innerHTML.includes(csAAST))
+                    document.getElementById("option2").innerHTML = ", " + csAAST;
+            } else {
+                if (!document.getElementById("recomended_results").innerHTML.includes(certificates))
+                    document.getElementById("option1").innerHTML = certificates;
+            }
+        }
+
+        function uniPriority2(university) {
+            if (university == "yes") {
+                if (!document.getElementById("recomended_results").innerHTML.includes(csDTA))
+                    document.getElementById("option1").innerHTML = csDTA + ", ";
+
+                if (!document.getElementById("recomended_results").innerHTML.includes(csAAST))
+                    document.getElementById("option2").innerHTML = csAAST;
+            } else {
+                if (!document.getElementById("recomended_results").innerHTML.includes(csBAS))
+                    document.getElementById("option1").innerHTML = csBAS + ", ";
+
+                if (!document.getElementById("recomended_results").innerHTML.includes(csBS))
+                    document.getElementById("option2").innerHTML = csBS;
+            }
+        }
+
+        function cresditsPriority2(NinetyCredit) {
+            if (NinetyCredit == "yes") {
+                if (!document.getElementById("recomended_results").innerHTML.includes(csBAS))
+                    document.getElementById("option1").innerHTML = csBAS + ", ";
+
+                if (!document.getElementById("recomended_results").innerHTML.includes(csBS))
+                    document.getElementById("option2").innerHTML = csBS + ", " + certificates;
+            } else {
+                if (!document.getElementById("recomended_results").innerHTML.includes(csAAST))
+                    document.getElementById("option1").innerHTML = csAAST + ", ";
+
+                if (!document.getElementById("recomended_results").innerHTML.includes(csDTA))
+                    document.getElementById("option2").innerHTML = csDTA;
+            }
+        }
+
+        function workExpePriority2(previousWork) {
+            if (previousWork == "yes") {
+                if (!document.getElementById("recomended_results").innerHTML.includes(certificates))
+                    document.getElementById("option1").innerHTML = certificates + ", ";
+
+                if (!document.getElementById("recomended_results").innerHTML.includes(csBAS))
+                    document.getElementById("option2").innerHTML = csBAS + ", " + csAAST;
+            } else {
+                if (!document.getElementById("recomended_results").innerHTML.includes(csDTA))
+                    document.getElementById("option1").innerHTML = csDTA + ", ";
+
+                if (!document.getElementById("recomended_results").innerHTML.includes(csBS))
+                    document.getElementById("option2").innerHTML = csBS;
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>
