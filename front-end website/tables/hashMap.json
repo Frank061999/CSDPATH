@@ -1,0 +1,1217 @@
+{
+    "CSD110": {
+        "class_id": 1,
+        "className": "CSD 110 Computer Programming Fundamentals with Python",
+        "program_quarter": {
+            "ACS DTA/MRP": 1.0,
+            "CSD AAS-T": 1.0,
+            "BS": 4.0
+        },
+        "preqs": [
+            "ENGL93",
+            "MATH90"
+        ],
+        "unblock": [
+            "CS&141",
+            "CSD122",
+            "CSD138",
+            "CSD275",
+            "CS170"
+        ]
+    },
+    "ENGL&101": {
+        "class_id": 3,
+        "className": "ENGL&101 English Composition I",
+        "program_quarter": {
+            "ACS DTA/MRP": 1.0,
+            "CSD AAS-T": 1.0,
+            "BS": 1.0,
+            "BAS": 6.5
+        },
+        "preqs": [
+            "ENGL99"
+        ],
+        "unblock": [
+            "ENGL&235",
+            "ENGL&102",
+            "SocSci5_2",
+            "CS222",
+            "ENGL&235orENGL&102orCMST&220"
+        ]
+    },
+    "CS&141": {
+        "class_id": 4,
+        "className": "CS& 141 Computer Science I Java",
+        "program_quarter": {
+            "ACS DTA/MRP": 2.0,
+            "CSD AAS-T": 2.0,
+            "BS": 5.0
+        },
+        "preqs": [
+            "CSD110"
+        ],
+        "unblock": [
+            "CS143",
+            "CSD268",
+            "CSD228",
+            "CS233"
+        ]
+    },
+    "CS143": {
+        "class_id": 7,
+        "className": "CS 143 Computer Science II Java",
+        "program_quarter": {
+            "ACS DTA/MRP": 3.0,
+            "CSD AAS-T": 3.0,
+            "BS": 6.0,
+            "BAS": 6.5
+        },
+        "preqs": [
+            "CS&141"
+        ],
+        "unblock": [
+            "CSD230",
+            "CSD233",
+            "CSD298",
+            "CSD297",
+            "CSD332",
+            "CSD335",
+            "CS296",
+            "CS243",
+            "CS301",
+            "CS321",
+            "CS333"
+        ]
+    },
+    "MATH&141": {
+        "class_id": 9,
+        "className": "MATH& 141 Pre-Calculus I",
+        "program_quarter": {
+            "ACS DTA/MRP": 0.0,
+            "CSD AAS-T": 3.0,
+            "BS": 2.0
+        },
+        "preqs": [
+            "MATH99"
+        ],
+        "unblock": [
+            "MATH&142"
+        ]
+    },
+    "Humanities5_1": {
+        "class_id": 10,
+        "className": "Humanities course",
+        "program_quarter": {
+            "ACS DTA/MRP": 2.0,
+            "CSD AAS-T": 4.0,
+            "BS": 2.0,
+            "BAS": 6.5
+        },
+        "preqs": [],
+        "unblock": [
+            "Humanities5_2"
+        ]
+    },
+    "MATH&151": {
+        "class_id": 21,
+        "className": "MATH& 151 Calculus I",
+        "program_quarter": {
+            "ACS DTA/MRP": 1.0,
+            "BAS": 7.0
+        },
+        "preqs": [
+            "MATH&142"
+        ],
+        "unblock": [
+            "MATH&152",
+            "PHYS&222"
+        ]
+    },
+    "Humanities5_2": {
+        "class_id": 22,
+        "className": "Humanities course",
+        "program_quarter": {
+            "ACS DTA/MRP": 4.0,
+            "BS": 8.0,
+            "BAS": 7.0
+        },
+        "preqs": [
+            "Humanities5_1"
+        ],
+        "unblock": [
+            "Humanities5_3"
+        ]
+    },
+    "MATH&142": {
+        "class_id": 42,
+        "className": "MATH&142 Pre-Calculus II",
+        "program_quarter": {
+            "ACS DTA/MRP": 0.0,
+            "BS": 3.0,
+            "BAS": 6.5
+        },
+        "preqs": [
+            "MATH&141"
+        ],
+        "unblock": [
+            "MATH&151",
+            "MATH220",
+            "PHYS&221"
+        ]
+    },
+    "MATH&152": {
+        "class_id": 66,
+        "className": "MATH& 152 Calculus II",
+        "program_quarter": {
+            "ACS DTA/MRP": 2.0
+        },
+        "preqs": [
+            "MATH&151"
+        ],
+        "unblock": []
+    },
+    "SOC&101": {
+        "class_id": 67,
+        "className": "SOC& 101 Introduction to Sociology",
+        "program_quarter": {
+            "ACS DTA/MRP": 3.0
+        },
+        "preqs": [
+            "ENGL93"
+        ],
+        "unblock": []
+    },
+    "MATH&163or146": {
+        "class_id": 68,
+        "className": "MATH& 163 Intro to Statistics or MATH& 146 Calculus III",
+        "program_quarter": {
+            "ACS DTA/MRP": 3.0
+        },
+        "preqs": [],
+        "unblock": [
+            "MATH&264"
+        ]
+    },
+    "PHYS&221": {
+        "class_id": 69,
+        "className": "PHYS& 221 Engineering Physics I with Lab",
+        "program_quarter": {
+            "ACS DTA/MRP": 4.0
+        },
+        "preqs": [
+            "MATH&142"
+        ],
+        "unblock": [
+            "PHYS&222"
+        ]
+    },
+    "ECON&201": {
+        "class_id": 70,
+        "className": "ECON& 201 Micro Economics",
+        "program_quarter": {
+            "ACS DTA/MRP": 5.0
+        },
+        "preqs": [
+            "ENGL99",
+            "MATH98"
+        ],
+        "unblock": []
+    },
+    "PSYC&100": {
+        "class_id": 71,
+        "className": "PSYC& 100 General Psychology",
+        "program_quarter": {
+            "ACS DTA/MRP": 4.0
+        },
+        "preqs": [
+            "ENGL93",
+            "MATH87"
+        ],
+        "unblock": []
+    },
+    "MATH&264": {
+        "class_id": 72,
+        "className": "MATH& 264 Calculus IV (WSU requirement)",
+        "program_quarter": {
+            "ACS DTA/MRP": 4.0
+        },
+        "preqs": [
+            "MATH&163or146"
+        ],
+        "unblock": []
+    },
+    "PHYS&222": {
+        "class_id": 73,
+        "className": "PHYS& 222 Engineering Physics II with Lab",
+        "program_quarter": {
+            "ACS DTA/MRP": 5.0
+        },
+        "preqs": [
+            "MATH&151",
+            "PHYS&221"
+        ],
+        "unblock": []
+    },
+    "Humanities5_3": {
+        "class_id": 74,
+        "className": "Humanities course",
+        "program_quarter": {
+            "ACS DTA/MRP": 5.0
+        },
+        "preqs": [
+            "Humanities5_2"
+        ],
+        "unblock": []
+    },
+    "PHIL&120": {
+        "class_id": 75,
+        "className": "PHIL& 120 Symbolic Logic (WSU requirement)",
+        "program_quarter": {
+            "ACS DTA/MRP": 5.0
+        },
+        "preqs": [
+            "MATH98"
+        ],
+        "unblock": []
+    },
+    "ENGL&235orENGL&102orCMST&220": {
+        "class_id": 76,
+        "className": "ENGL& 235 or ENGL&102 or CMST& 220",
+        "program_quarter": {
+            "ACS DTA/MRP": 6.0
+        },
+        "preqs": [
+            "ENGL&101"
+        ],
+        "unblock": []
+    },
+    "Elec5_1": {
+        "class_id": 77,
+        "className": "Elective course (CSD 233 C++ Programming recommended)",
+        "program_quarter": {
+            "ACS DTA/MRP": 6.0
+        },
+        "preqs": [],
+        "unblock": []
+    },
+    "Elec5_2": {
+        "class_id": 78,
+        "className": "Elective course (MATH& 142 Pre-Calculus II may beused) or BIOL& 160",
+        "program_quarter": {
+            "ACS DTA/MRP": 6.0
+        },
+        "preqs": [],
+        "unblock": []
+    },
+    "ENGL93": {
+        "class_id": 79,
+        "className": "ENGL 93 (or placement into ENGL 99 or higher)",
+        "program_quarter": {
+            "ACS DTA/MRP": 0.0,
+            "CSD AAS-T": 0.0,
+            "BS": 0.0
+        },
+        "preqs": [],
+        "unblock": [
+            "CSD110",
+            "CSD112",
+            "CS101",
+            "SOC&101",
+            "PSYC&100"
+        ]
+    },
+    "ENGL99": {
+        "class_id": 80,
+        "className": "ENGL 99 Intro to Essay Writing",
+        "program_quarter": {
+            "ACS DTA/MRP": 0.0,
+            "CSD AAS-T": 0.0,
+            "BS": 0.0
+        },
+        "preqs": [],
+        "unblock": [
+            "ENGL&101",
+            "ECON&201"
+        ]
+    },
+    "MATH90": {
+        "class_id": 81,
+        "className": "MATH 90 (or placement into MATH 99 or higher)",
+        "program_quarter": {
+            "ACS DTA/MRP": 0.0,
+            "CSD AAS-T": 0.0
+        },
+        "preqs": [],
+        "unblock": [
+            "CSD110"
+        ]
+    },
+    "MATH99": {
+        "class_id": 82,
+        "className": "MATH 99 (or placement into MATH& 141))",
+        "program_quarter": {
+            "ACS DTA/MRP": 0.0,
+            "CSD AAS-T": 0.0,
+            "BS": 0.0
+        },
+        "preqs": [],
+        "unblock": [
+            "MATH&141",
+            "SocSci5_2"
+        ]
+    },
+    "MATH87": {
+        "class_id": 83,
+        "className": "MATH 87 (or placement into MATH 90 or higher)",
+        "program_quarter": {
+            "ACS DTA/MRP": 0.0,
+            "CSD AAS-T": 0.0,
+            "BS": 0.0
+        },
+        "preqs": [],
+        "unblock": [
+            "CSD112",
+            "CS101",
+            "PSYC&100"
+        ]
+    },
+    "MATH98": {
+        "class_id": 88,
+        "className": "MATH 98 or MATH 99 (or placement into MATH& 107 or higher)",
+        "program_quarter": {
+            "ACS DTA/MRP": 0.0,
+            "BAS": 6.5
+        },
+        "preqs": [],
+        "unblock": [
+            "PHYS&114",
+            "ECON&201",
+            "PHIL&120"
+        ]
+    },
+    "CSD112": {
+        "class_id": 2,
+        "className": "CSD 112 HTML and CSS",
+        "program_quarter": {
+            "CSD AAS-T": 1.0
+        },
+        "preqs": [
+            "ENGL93",
+            "MATH87"
+        ],
+        "unblock": [
+            "CSD122",
+            "CSD275"
+        ]
+    },
+    "CSD122": {
+        "class_id": 5,
+        "className": "CSD 122 JavaScript",
+        "program_quarter": {
+            "CSD AAS-T": 2.0,
+            "BAS": 7.0
+        },
+        "preqs": [
+            "CSD110",
+            "CSD112"
+        ],
+        "unblock": [
+            "CSD322",
+            "CSD412"
+        ]
+    },
+    "CSD138": {
+        "class_id": 6,
+        "className": "CSD 138 Structured Query Language (SQL)",
+        "program_quarter": {
+            "CSD AAS-T": 2.0,
+            "BAS": 7.0
+        },
+        "preqs": [
+            "CSD110"
+        ],
+        "unblock": [
+            "CSD322",
+            "CSD331"
+        ]
+    },
+    "CSD268": {
+        "class_id": 8,
+        "className": "CSD 268 Quality Assurance Methodologies",
+        "program_quarter": {
+            "CSD AAS-T": 3.0,
+            "BAS": 7.0
+        },
+        "preqs": [
+            "CS&141"
+        ],
+        "unblock": [
+            "CSD322"
+        ]
+    },
+    "NatSci5_1": {
+        "class_id": 11,
+        "className": "Natural Science course with a lab",
+        "program_quarter": {
+            "CSD AAS-T": 4.0,
+            "BS": 4.0
+        },
+        "preqs": [],
+        "unblock": [
+            "NatSci5_2"
+        ]
+    },
+    "SocSci5_1": {
+        "class_id": 12,
+        "className": "Social Science course",
+        "program_quarter": {
+            "CSD AAS-T": 4.0,
+            "BS": 1.0,
+            "BAS": 6.5
+        },
+        "preqs": [],
+        "unblock": [
+            "SocSci5_2"
+        ]
+    },
+    "CSD230": {
+        "class_id": 13,
+        "className": "CSD 230 Programming For Mobile Devices",
+        "program_quarter": {
+            "CSD AAS-T": 5.0
+        },
+        "preqs": [
+            "CS143"
+        ],
+        "unblock": []
+    },
+    "CSD275": {
+        "class_id": 14,
+        "className": "CSD 275 PHP Scripting",
+        "program_quarter": {
+            "CSD AAS-T": 5.0
+        },
+        "preqs": [
+            "CSD110",
+            "CSD112"
+        ],
+        "unblock": []
+    },
+    "CSD233": {
+        "class_id": 15,
+        "className": "CSD 233 C++ Programming",
+        "program_quarter": {
+            "CSD AAS-T": 5.0
+        },
+        "preqs": [
+            "CS143"
+        ],
+        "unblock": []
+    },
+    "CSD228": {
+        "class_id": 16,
+        "className": "CSD 228 Programming with C#",
+        "program_quarter": {
+            "CSD AAS-T": 6.0
+        },
+        "preqs": [
+            "CS&141"
+        ],
+        "unblock": []
+    },
+    "CSD298": {
+        "class_id": 17,
+        "className": "CSD 298 or DSGN 290 Technical Interview/Job Seach",
+        "program_quarter": {
+            "CSD AAS-T": 6.0
+        },
+        "preqs": [
+            "CS143"
+        ],
+        "unblock": []
+    },
+    "CSD297": {
+        "class_id": 18,
+        "className": "CSD 297 IT Project",
+        "program_quarter": {
+            "CSD AAS-T": 6.0
+        },
+        "preqs": [
+            "CS143"
+        ],
+        "unblock": []
+    },
+    "TechElec5_1": {
+        "class_id": 19,
+        "className": "Technical Elective: choose CSD 235 or CSD 294 or any other CSD",
+        "program_quarter": {
+            "CSD AAS-T": 6.0,
+            "BS": 11.0
+        },
+        "preqs": [],
+        "unblock": [
+            "TechElec5_2"
+        ]
+    },
+    "TechElec5_2": {
+        "class_id": 20,
+        "className": "Technical Elective: choose CSD 235 or CSD 294 or any other CSD",
+        "program_quarter": {
+            "BS": 12.0
+        },
+        "preqs": [
+            "TechElec5_1"
+        ],
+        "unblock": []
+    },
+    "NatSci5_2": {
+        "class_id": 23,
+        "className": "Natural Science course with a lab",
+        "program_quarter": {
+            "BS": 5.0,
+            "BAS": 7.0
+        },
+        "preqs": [
+            "NatSci5_1"
+        ],
+        "unblock": []
+    },
+    "CSD323": {
+        "class_id": 25,
+        "className": "CSD323 Data Analytics",
+        "program_quarter": {
+            "BS": 9.0,
+            "BAS": 8.0
+        },
+        "preqs": [
+            "FinishedAssociate",
+            "GPA",
+            "GeneralCredits",
+            "AdmissionToBAS"
+        ],
+        "unblock": []
+    },
+    "CS101": {
+        "class_id": 39,
+        "className": "CS 101 Introduction to Computer Science",
+        "program_quarter": {
+            "BS": 1.0
+        },
+        "preqs": [
+            "ENGL93",
+            "MATH87"
+        ],
+        "unblock": []
+    },
+    "CS102": {
+        "class_id": 40,
+        "className": "CS 102 Computer Science Careers/Student Success",
+        "program_quarter": {
+            "BS": 2.0
+        },
+        "preqs": [],
+        "unblock": []
+    },
+    "ENGL&102": {
+        "class_id": 41,
+        "className": "ENGL&102 English Composition II (or ENGL& 235 Technical Writing)",
+        "program_quarter": {
+            "BS": 3.0
+        },
+        "preqs": [
+            "ENGL&101"
+        ],
+        "unblock": []
+    },
+    "SocSci5_2": {
+        "class_id": 43,
+        "className": "Social Science course",
+        "program_quarter": {
+            "BS": 3.0
+        },
+        "preqs": [
+            "ENGL&101",
+            "SocSci5_1",
+            "MATH99"
+        ],
+        "unblock": []
+    },
+    "CS170": {
+        "class_id": 44,
+        "className": "CS 170 Linear Algebra for Data Analysis",
+        "program_quarter": {
+            "BS": 4.0
+        },
+        "preqs": [
+            "CSD110"
+        ],
+        "unblock": [
+            "CS202"
+        ]
+    },
+    "CS222": {
+        "class_id": 45,
+        "className": "CS 222 Computing, Data, and Society",
+        "program_quarter": {
+            "BS": 5.0
+        },
+        "preqs": [
+            "ENGL&101"
+        ],
+        "unblock": []
+    },
+    "CS233": {
+        "class_id": 46,
+        "className": "CS233 Web and Database Programming",
+        "program_quarter": {
+            "BS": 6.0
+        },
+        "preqs": [
+            "CS&141"
+        ],
+        "unblock": []
+    },
+    "CS296": {
+        "class_id": 47,
+        "className": "CS296 Computer Science Career Seminar",
+        "program_quarter": {
+            "BS": 6.0
+        },
+        "preqs": [
+            "CS143"
+        ],
+        "unblock": []
+    },
+    "CS243": {
+        "class_id": 48,
+        "className": "CS243 Software Development Tools",
+        "program_quarter": {
+            "BS": 6.0
+        },
+        "preqs": [
+            "CS143"
+        ],
+        "unblock": []
+    },
+    "CS202": {
+        "class_id": 49,
+        "className": "CS202 Discrete Structures I",
+        "program_quarter": {
+            "BS": 7.0
+        },
+        "preqs": [
+            "CS170"
+        ],
+        "unblock": [
+            "CS302",
+            "CS333"
+        ]
+    },
+    "CS301": {
+        "class_id": 50,
+        "className": "CS301 Foundations of Computer Science",
+        "program_quarter": {
+            "BS": 7.0
+        },
+        "preqs": [
+            "CS143"
+        ],
+        "unblock": [
+            "CS302",
+            "CS442"
+        ]
+    },
+    "CS321": {
+        "class_id": 51,
+        "className": "CS321 Database Systems",
+        "program_quarter": {
+            "BS": 7.0
+        },
+        "preqs": [
+            "CS143"
+        ],
+        "unblock": []
+    },
+    "CS397": {
+        "class_id": 52,
+        "className": "CS397 Computer Science Seminar I",
+        "program_quarter": {
+            "BS": 7.0
+        },
+        "preqs": [
+            "BSCSenrollment"
+        ],
+        "unblock": []
+    },
+    "CS302": {
+        "class_id": 53,
+        "className": "CS302 Discrete Structures II",
+        "program_quarter": {
+            "BS": 8.0
+        },
+        "preqs": [
+            "CS202",
+            "CS301"
+        ],
+        "unblock": []
+    },
+    "CS333": {
+        "class_id": 54,
+        "className": "CS333 Data Structures and Algorithms I",
+        "program_quarter": {
+            "BS": 8.0
+        },
+        "preqs": [
+            "CS143",
+            "CS202"
+        ],
+        "unblock": [
+            "CS334"
+        ]
+    },
+    "CS334": {
+        "class_id": 55,
+        "className": "CS334 Data Structures & Algorithms II",
+        "program_quarter": {
+            "BS": 9.0
+        },
+        "preqs": [
+            "CS333"
+        ],
+        "unblock": []
+    },
+    "CS350": {
+        "class_id": 56,
+        "className": "CS350 Software Engineering",
+        "program_quarter": {
+            "BS": 9.0
+        },
+        "preqs": [
+            "BSCSenrollment"
+        ],
+        "unblock": []
+    },
+    "CS398": {
+        "class_id": 57,
+        "className": "CS398 Computer Science Seminar II",
+        "program_quarter": {
+            "BS": 9.0
+        },
+        "preqs": [
+            "BSCSenrollment"
+        ],
+        "unblock": []
+    },
+    "CS421": {
+        "class_id": 58,
+        "className": "CS421 Algorithmic Problem Solving",
+        "program_quarter": {
+            "BS": 10.0
+        },
+        "preqs": [
+            "BSCSenrollment"
+        ],
+        "unblock": []
+    },
+    "CS442": {
+        "class_id": 59,
+        "className": "CS442 Principles of Computer Systems",
+        "program_quarter": {
+            "BS": 10.0
+        },
+        "preqs": [
+            "CS301",
+            "BSCSenrollment"
+        ],
+        "unblock": []
+    },
+    "CS498": {
+        "class_id": 60,
+        "className": "CS498 Computer Science Seminar III",
+        "program_quarter": {
+            "BS": 10.0
+        },
+        "preqs": [
+            "BSCSenrollment"
+        ],
+        "unblock": []
+    },
+    "CS485": {
+        "class_id": 61,
+        "className": "CS 485 Capstone Project I",
+        "program_quarter": {
+            "BS": 11.0
+        },
+        "preqs": [
+            "BSCSenrollment"
+        ],
+        "unblock": []
+    },
+    "CS433": {
+        "class_id": 62,
+        "className": "CS 433 Programming Languages",
+        "program_quarter": {
+            "BS": 11.0
+        },
+        "preqs": [
+            "BSCSenrollment"
+        ],
+        "unblock": []
+    },
+    "CS402": {
+        "class_id": 63,
+        "className": "CS402 Statistical Methods for Testing",
+        "program_quarter": {
+            "BS": 12.0
+        },
+        "preqs": [
+            "BSCSenrollment"
+        ],
+        "unblock": []
+    },
+    "CS486": {
+        "class_id": 64,
+        "className": "CS486 Capstone Project II",
+        "program_quarter": {
+            "BS": 12.0
+        },
+        "preqs": [
+            "BSCSenrollment"
+        ],
+        "unblock": []
+    },
+    "CS450": {
+        "class_id": 65,
+        "className": "CS450 Security Foundations",
+        "program_quarter": {
+            "BS": 10.0
+        },
+        "preqs": [
+            "BSCSenrollment"
+        ],
+        "unblock": []
+    },
+    "BSCSenrollment": {
+        "class_id": 89,
+        "className": "Upper Division BS Enrollment",
+        "program_quarter": {
+            "BS": 6.5
+        },
+        "preqs": [],
+        "unblock": [
+            "CS397",
+            "CS350",
+            "CS398",
+            "CS421",
+            "CS442",
+            "CS498",
+            "CS485",
+            "CS433",
+            "CS402",
+            "CS486",
+            "CS450"
+        ]
+    },
+    "CSD322": {
+        "class_id": 24,
+        "className": "CSD 322 Computer and Network Architecture",
+        "program_quarter": {
+            "BAS": 8.0
+        },
+        "preqs": [
+            "CSD122",
+            "CSD138",
+            "CSD268",
+            "FinishedAssociate",
+            "GPA",
+            "GeneralCredits",
+            "AdmissionToBAS"
+        ],
+        "unblock": [
+            "CSD415"
+        ]
+    },
+    "MATH220": {
+        "class_id": 26,
+        "className": "MATH 220 Linear Algebra",
+        "program_quarter": {
+            "BAS": 8.0
+        },
+        "preqs": [
+            "MATH&142"
+        ],
+        "unblock": [
+            "CSD331"
+        ]
+    },
+    "CSD331": {
+        "class_id": 27,
+        "className": "CSD 331 Database Modeling and Design",
+        "program_quarter": {
+            "BAS": 9.0
+        },
+        "preqs": [
+            "CSD138",
+            "MATH220",
+            "FinishedAssociate",
+            "GPA",
+            "GeneralCredits",
+            "AdmissionToBAS"
+        ],
+        "unblock": [
+            "CSD412",
+            "CSD438"
+        ]
+    },
+    "CSD332": {
+        "class_id": 28,
+        "className": "CSD 332 Software Project Management",
+        "program_quarter": {
+            "BAS": 9.0
+        },
+        "preqs": [
+            "CS143",
+            "FinishedAssociate",
+            "GPA",
+            "GeneralCredits",
+            "AdmissionToBAS"
+        ],
+        "unblock": []
+    },
+    "CSD335": {
+        "class_id": 29,
+        "className": "CSD 335 Algorithms and Data Structures",
+        "program_quarter": {
+            "BAS": 9.0
+        },
+        "preqs": [
+            "CS143",
+            "FinishedAssociate",
+            "GPA",
+            "GeneralCredits",
+            "AdmissionToBAS"
+        ],
+        "unblock": [
+            "CSD436"
+        ]
+    },
+    "CSD412": {
+        "class_id": 30,
+        "className": "CSD 412 Web Application Development",
+        "program_quarter": {
+            "BAS": 10.0
+        },
+        "preqs": [
+            "CSD122",
+            "CSD331",
+            "FinishedAssociate",
+            "GPA",
+            "GeneralCredits",
+            "AdmissionToBAS"
+        ],
+        "unblock": [
+            "CSD425"
+        ]
+    },
+    "CSD415": {
+        "class_id": 31,
+        "className": "CSD 415 Operating Systems Concepts",
+        "program_quarter": {
+            "BAS": 10.0
+        },
+        "preqs": [
+            "CSD322",
+            "FinishedAssociate",
+            "GPA",
+            "GeneralCredits",
+            "AdmissionToBAS"
+        ],
+        "unblock": []
+    },
+    "ENGL&235": {
+        "class_id": 32,
+        "className": "ENGL& 235 Technical Writing",
+        "program_quarter": {
+            "BAS": 10.0
+        },
+        "preqs": [
+            "ENGL&101"
+        ],
+        "unblock": []
+    },
+    "CSD425": {
+        "class_id": 33,
+        "className": "CSD 425 Cloud Computing",
+        "program_quarter": {
+            "BAS": 11.0
+        },
+        "preqs": [
+            "CSD412",
+            "FinishedAssociate",
+            "GPA",
+            "GeneralCredits",
+            "AdmissionToBAS"
+        ],
+        "unblock": [
+            "CSD438"
+        ]
+    },
+    "CSD436": {
+        "class_id": 34,
+        "className": "CSD 436 Algorithmic Problem Solving for Interviews",
+        "program_quarter": {
+            "BAS": 11.0
+        },
+        "preqs": [
+            "CSD335",
+            "FinishedAssociate",
+            "GPA",
+            "GeneralCredits",
+            "AdmissionToBAS"
+        ],
+        "unblock": []
+    },
+    "PHYS&114": {
+        "class_id": 35,
+        "className": "PHYS& 114 General Physics I w/Lab",
+        "program_quarter": {
+            "BAS": 11.0
+        },
+        "preqs": [
+            "MATH98"
+        ],
+        "unblock": []
+    },
+    "CSD438": {
+        "class_id": 36,
+        "className": "CSD 438 Big Data Application Development",
+        "program_quarter": {
+            "BAS": 12.0
+        },
+        "preqs": [
+            "CSD331",
+            "CSD425",
+            "FinishedAssociate",
+            "GPA",
+            "GeneralCredits",
+            "AdmissionToBAS"
+        ],
+        "unblock": []
+    },
+    "CSD480": {
+        "class_id": 37,
+        "className": "CSD 480 Capstone Project",
+        "program_quarter": {
+            "BAS": 12.0
+        },
+        "preqs": [
+            "FinishedAssociate",
+            "GPA",
+            "GeneralCredits",
+            "AdmissionToBAS"
+        ],
+        "unblock": []
+    },
+    "PSYC324": {
+        "class_id": 38,
+        "className": "PSYC 324 Psychology of Organizations",
+        "program_quarter": {
+            "BAS": 12.0
+        },
+        "preqs": [
+            "FinishedAssociate",
+            "GPA",
+            "GeneralCredits",
+            "AdmissionToBAS"
+        ],
+        "unblock": []
+    },
+    "FinishedAssociate": {
+        "class_id": 84,
+        "className": "Completion of Associate Degree",
+        "program_quarter": {
+            "BAS": 6.5
+        },
+        "preqs": [],
+        "unblock": [
+            "CSD322",
+            "CSD323",
+            "CSD331",
+            "CSD332",
+            "CSD335",
+            "CSD412",
+            "CSD415",
+            "CSD425",
+            "CSD436",
+            "CSD438",
+            "CSD480",
+            "PSYC324"
+        ]
+    },
+    "GPA": {
+        "class_id": 85,
+        "className": "Minimum 2.0 GPA",
+        "program_quarter": {
+            "BAS": 6.5
+        },
+        "preqs": [],
+        "unblock": [
+            "CSD322",
+            "CSD323",
+            "CSD331",
+            "CSD332",
+            "CSD335",
+            "CSD412",
+            "CSD415",
+            "CSD425",
+            "CSD436",
+            "CSD438",
+            "CSD480",
+            "PSYC324"
+        ]
+    },
+    "GeneralCredits": {
+        "class_id": 86,
+        "className": "Completion of at least 25 General Education course credits",
+        "program_quarter": {
+            "BAS": 6.5
+        },
+        "preqs": [],
+        "unblock": [
+            "CSD322",
+            "CSD323",
+            "CSD331",
+            "CSD332",
+            "CSD335",
+            "CSD412",
+            "CSD415",
+            "CSD425",
+            "CSD436",
+            "CSD438",
+            "CSD480",
+            "PSYC324"
+        ]
+    },
+    "AdmissionToBAS": {
+        "class_id": 87,
+        "className": "Admission to BAS IT:CSD program",
+        "program_quarter": {
+            "BAS": 6.5
+        },
+        "preqs": [],
+        "unblock": [
+            "CSD322",
+            "CSD323",
+            "CSD331",
+            "CSD332",
+            "CSD335",
+            "CSD412",
+            "CSD415",
+            "CSD425",
+            "CSD436",
+            "CSD438",
+            "CSD480",
+            "PSYC324"
+        ]
+    }
+}

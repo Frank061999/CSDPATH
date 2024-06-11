@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+#hover-window {
+  position: absolute;
+  top: 1px;
+  left: 0;
+  background-color: rgb(217, 187, 217);
+  border: 3px solid black;
+  padding: 10px;
+  display: none;
+  height: 30px;
+}
+.required-label::after {
+  content: " *";
+  color: red;
+}
+header {
+  text-align: center;
+  background-color: #005f83;
+  padding: 30px 0;
+  border-radius: 10px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+  color: #005f83;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#formContainer {
+  display:flex;
+}
+#paragraphs {
+  text-align: center;
+  background-color: #d0d6d4;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  border: none;
+}
+
+table,
+th,
+td,
+div {
+  border: 1px solid black;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  border-width: thick;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-color: #ebebeb; */
+  color: #005f83;
+}
+
+td {
+  text-align: center;
+  padding: 8px;
+  border-width: thick;
+  width: 300px;
+}
+
+th {
+  text-align: center;
+  padding: 8px;
+  border-width: thick;
+  width: 70px;
+}
+
+div {
+  text-align: left;
+  padding: 9px;
+}
+
+.finishedColor {
+  background-color: lightgreen;
+}
+
+.waitingColor {
+  background-color: lightgray;
+}
+
+.readyColor {
+  background-color: white;
+}
+
